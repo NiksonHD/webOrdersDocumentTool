@@ -16,8 +16,8 @@ echo '</head>' >> $dir$orderNum.html;
 echo "<div> Web Order #$orderNum</div>" >> $dir$orderNum.html;
 echo '<ol>' >> $dir$orderNum.html;
 for sapNum in ${orderString[@]};do
- echo  "<li><a target='_blank' href='https://praktiker.bg/bg/bg/Stolove/TRAPEZEN-STOL-LILOVI-KROS-2-VENGE/p/$sapNum'>$sapNum</a></li><br>" >> $dir$orderNum.html;
- echo "<input type='checkbox' value='1'/>"
+ echo  "<li><a target='_blank' href='https://praktiker.bg/bg/bg/Stolove/TRAPEZEN-STOL-LILOVI-KROS-2-VENGE/p/$sapNum'>$sapNum</a></li>" >> $dir$orderNum.html;
+ echo "<input type='checkbox' value='1'/></br>" >> $dir$orderNum.html;
 done
 echo '</ol>' >> $dir$orderNum.html;
 
